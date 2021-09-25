@@ -1,0 +1,146 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    width: 5.5em;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+    transition: all .4s;
+}
+
+/*Filme principal*/
+h2{
+    margin-bottom: 10px;
+}
+p{
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.filme-principal{
+    font-size: 1em;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url(../img/capa-house.jpg);
+    background-size: cover;
+    background-position-y: -20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-bottom: 40px;
+
+}
+
+.filme-principal .description{
+    margin-bottom: 50px;
+    
+}
+
+.title{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.n-serie{
+    margin: 70px 20px 20px 59px;
+    width: 360px;
+    display: flex;
+    
+}
+.buttons{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.button{
+    background-color: rgba(0,0,0,.3);
+    border: none;
+    color: white;
+
+    padding: 10px 30px;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .4s;
+    border-radius: 2%;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.button i{
+    margin-right: 8px;
+}
+
+.container .nserie, h2,p{
+    margin-left: 60px;
+
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.popular-movies{
+    padding: 10px;
+    display: inline-block;
+}
+
+/*Box filmes*/
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carousel-personal{
+    margin: 0.5%;
+    
+}
+
+.text-top{
+    display: block;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.205);
+    margin-left: 0;
+}
+    
