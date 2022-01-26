@@ -8,5 +8,5 @@ Recrie a interface do principal site de streaming mundial utilizando tecnologias
 Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com **Flexbox** e como utilizar plugins **JQuery** a favor da sua aplicação.
 
 <p>
-  <img src="./preview/preview.png" width="350" title="hover text">
+  <img src="./preview/preview.png" width="700" title="hover text">
 </p>
